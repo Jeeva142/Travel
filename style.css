@@ -45,6 +45,8 @@ section{
     color: var(--blue);
 }
 
+
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -592,10 +594,11 @@ section{
         flex-flow: column;
         justify-content: center;
         z-index: 1200;
+        transition: left 0.9s ease-in-out;
     }
     .header .navbar.active{
         left: 0;
-        box-shadow: 0 0 0 100vw rgba(0,0,0,0.8);
+    
     }
     .header .navbar #close-navbar{
         display: block;
@@ -607,6 +610,8 @@ section{
         font-size: 3rem;
     }
 }
+
+
 
 @media(max-width:450px){
     html{
